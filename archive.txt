@@ -1,0 +1,116 @@
+const About = () => (<div><h1>About</h1><Link to='/'>Go home</Link></div>)
+const posts = [
+  {
+    timestamp: new Date().getTime(),
+    title: "Ate lunch",
+    img: "http://www.croop.cl/UI/twitter/images/doug.jpg",
+    description: "hello"
+  },
+  {
+      timestamp: new Date().getTime(),
+      title: "Ate lunch",
+      img: "http://www.croop.cl/UI/twitter/images/doug.jpg",
+      description: "hello"
+    },
+  
+]
+const activities = [
+  {
+    timestamp: new Date().getTime(),
+    text: "Ate lunch",
+    user: {
+      id: 1, name: 'Nate',
+      avatar: "http://www.croop.cl/UI/twitter/images/doug.jpg"
+    },
+    comments: [{ from: 'Ari', text: 'Me too!' }]
+  },
+  {
+    timestamp: new Date().getTime(),
+    text: "Woke up early for a beautiful run",
+    user: {
+      id: 2, name: 'Ari',
+      avatar: "http://www.croop.cl/UI/twitter/images/doug.jpg"
+    },
+    comments: [{ from: 'Nate', text: 'I am so jealous' }]
+  },
+  
+]
+class Header extends React.Component {
+  
+  render() {
+    return (
+      <div className="header">
+        <div className="fa fa-more"></div>
+
+        <span className="title">{this.props.title}</span>
+
+        <input
+          type="text"
+          className="searchInput"
+          placeholder="Search ..." />
+
+        <div className="fa fa-search searchIcon"></div>
+      </div>
+    )
+  }
+}
+class ActivityItem extends React.Component {
+  render() {
+    const {activity} = this.props; // ES6 destructuring
+
+    return (
+      <div className="item">
+        <div className="avatar">
+          <img
+            alt={activity.text}
+            src={activity.user.avatar} />
+          {activity.user.name}
+        </div>
+
+        <span className="time">
+          {activity.timestamp}
+        </span>
+        <p>{activity.text}</p>
+        <div className="commentCount">
+          {activity.comments.length}
+        </div>
+      </div>
+    )
+  }
+}
+
+
+class Content extends React.Component {
+  render() {
+    const {activities} = this.props; // ES6 destructuring
+
+    return (
+      <div className="content">
+        <div className="line"></div>
+
+        {/* Timeline item */}
+        {activities.map((activity) => {
+          return (
+            <div className="item">
+              <div className="avatar">
+                <img
+                  alt={activity.text}
+                  src={activity.user.avatar} />
+                {activity.user.name}
+              </div>
+
+              <span className="time">
+                {activity.timestamp}
+              </span>
+              <p>{activity.text}</p>
+              <div className="commentCount">
+                {activity.comments.length}
+              </div>
+            </div>
+          );
+        })}
+
+      </div>
+    )
+  }
+}

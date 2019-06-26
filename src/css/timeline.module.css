@@ -1,0 +1,19 @@
+.post{
+    margin-left: 35%;
+    background-color: #aaa9a9e0;
+    display: inline-block;
+    width: 30%;
+}
+.img {
+    float: left;
+}
+.title{ 
+    float: left;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+.description{
+    float: right;
+}
