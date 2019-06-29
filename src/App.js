@@ -7,7 +7,7 @@ import Navigation from './components/Navigation';
 import Proverbs from './components/Proverbs';
 import Home from './views/Home.js';
 import Thoughts from './views/Thoughts';
-
+import Footer from './components/Footer';
 // Browser Router 
 import {
   BrowserRouter as Router,
@@ -32,6 +32,7 @@ class App extends Component{
       <Route exact path="/" component={Home}></Route>
       <Route exact path="/thoughts" component={Thoughts}></Route>
     </Switch>
+    <Footer/>
     </Router>
   );
   }
