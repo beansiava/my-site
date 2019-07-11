@@ -23,7 +23,7 @@ const Paragraph = styled.p(
 const Section = styled.section(
     {
     'align': 'center',
-    'text-align': 'center',
+    'textAlign': 'center',
     }
 )
   const Book = ({ title, timeperiod, story,}) => {

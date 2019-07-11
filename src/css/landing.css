@@ -1,0 +1,105 @@
+/* MISC COMPONENTS */
+.a {
+    font-style: inherit;
+    font-family: inherit;
+
+    color: inherit;
+}
+
+.logo {
+    align-self: center;
+    margin-left: 10em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 250px;
+    height: 200px;
+}
+/* GRID COMPONENTS */
+.grid-container {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 100%;
+}
+.sean{
+    width: 412px;
+    height: 280px;
+    margin-left: 10em;
+
+    display: inline-block;
+   
+    border: 3px solid #000000;
+    /* border-radius: 20% 7% 20% 7%; */
+    
+    background-size: 20% 30%, 100% 100%;
+    background-image: url('../images/logo.png'),url('../images/go.jpg');
+    background-position: right bottom, center center;
+    background-repeat: no-repeat;
+}
+
+.introContainer{
+    margin-left: 9em;
+    margin-top: 2.5em;
+    float: left;
+    margin-bottom: 4.2em;
+}
+.introText{
+    color: #707070;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 9.1em;
+}
+.secretText{
+    color: #707070;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 13.1em;
+}
+.resumeText{
+    font-family: 'Courier New';
+    color: #707070;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+.screenWrapper{
+    min-width: 100%;
+    min-height: 100%;
+}
+.LeftSide{
+    background-color: #ffffff;
+    z-index: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: row1-start;
+    grid-row-end: 1;
+}
+.RightSide{
+    background-color: #000000;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: row1-start;
+    grid-row-end: 1;
+    
+}
+.email{
+    color: #707070;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 5.1em;
+    margin-top: 10em;
+    
+}
+.navContainer{
+    margin-left: 6em;
+    margin-right: 6em;
+   
+}
+.navItem{
+   font-size: 72px; 
+   margin: 20px;
+   color: #707070;
+   text-align: center;
+}

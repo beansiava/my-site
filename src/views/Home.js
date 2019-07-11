@@ -2,8 +2,8 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import Me from '../components/Me';
 import Lifeline from '../components/Lifeline';
+import Resume from '../components/Resume';
 
-import {Link,} from 'react-router-dom';
 import Proverbs from '../components/Proverbs';
 
 let myStoryList = [
@@ -21,7 +21,8 @@ class Home extends React.Component {
       <div className="Home">
       <Navigation></Navigation>
       <Me></Me>
-      <Lifeline books={myStoryList}></Lifeline>
+      <Resume></Resume>
+      {/* <Lifeline books={myStoryList}></Lifeline> */}
     </div>
      );
   }

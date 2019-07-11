@@ -1,12 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Clock from './components/clock';
-import TimelineItem from './components/timeline';
-import Navigation from './components/Navigation';
-import Proverbs from './components/Proverbs';
-import Home from './views/Home.js';
-import Thoughts from './views/Thoughts';
+import Landing from './views/Landing';
 import Footer from './components/Footer';
 // Browser Router 
 import {
@@ -29,10 +24,9 @@ class App extends Component{
       <Proverbs></Proverbs> */}
     </div>
     <Switch>
-      <Route exact path="/" component={Home}></Route>
-      <Route exact path="/thoughts" component={Thoughts}></Route>
+      <Route exact path="/" component={Landing}></Route>
     </Switch>
-    <Footer/>
+    
     </Router>
   );
   }

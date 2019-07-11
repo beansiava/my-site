@@ -1,6 +1,8 @@
 import React from 'react';
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
+import '../css/landing.css';
+
 import firebase from 'firebase';
 
 // Your web app's Firebase configuration
@@ -49,7 +51,7 @@ class Newsletter extends React.Component {
       }
       render(){
         return ( 
-            <div>
+            <div className='introText'>
                 {/* Still need to create an endpoint for this form.  (Mailchimp subscription) */}
                 <form onSubmit={this.handleSubmit}>
                 <label className ="label">
