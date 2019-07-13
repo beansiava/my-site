@@ -2,10 +2,10 @@
   "name": "my-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://beansiava.github.io/my-site",
   "dependencies": {
     "babel": "^6.23.0",
     "firebase": "^6.2.4",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-mailchimp-subscribe": "^2.1.0",
@@ -19,6 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -38,8 +40,9 @@
     ]
   },
   "devDependencies": {
-    "@storybook/react": "^5.1.1",
     "@storybook/addon-actions": "^5.1.1",
-    "@storybook/addon-links": "^5.1.1"
+    "@storybook/addon-links": "^5.1.1",
+    "@storybook/react": "^5.1.1",
+    "gh-pages": "^2.0.1"
   }
 }
