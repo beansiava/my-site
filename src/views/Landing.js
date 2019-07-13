@@ -6,6 +6,9 @@ import ExternalNav from '../components/landing/ExternalNav';
 import Newsletter from '../components/Newsletter';
 import Navigation from '../components/Navigation';
 
+import '../css/cursor.scss';
+import '../css/global.css'
+
 class Landing extends Component {
     constructor(props) {
         super(props);
@@ -18,13 +21,11 @@ class Landing extends Component {
     render() { 
         return ( 
             <div className='screenWrapper'>
-            <div className='grid-container'>
+            <div className='grid-container view'>
                 <div className='LeftSide' onMouseOver={this.checkbackground}>
                     <img className='logo div' src={logo}></img>
                     <Me />
-                    <div className='navContainer div'>
-                        <Navigation></Navigation>
-                    </div>
+                    
                 </div>
                 <div className='RightSide div' onMouseOver={this.checkbackground}>
                     <ExternalNav/>
@@ -32,9 +33,13 @@ class Landing extends Component {
                         <p className='resumeText div'>
                             or, if you want to download a boring resume,
                             you can <a className='a' href='../files/Resume_SeanBiava.png'>click here.</a>
+                            <br></br><br></br><br></br><br></br><br></br><br></br>
                         </p>
                     </div>
                     <div className='inlineContainer div'>
+                        <div className='navContainer div'>
+                            <Navigation></Navigation>
+                        </div>
                         <div className='blockItem email div'>
                             <h2 className="introText div"> Oh, I also have a Newsletter</h2>
                             <Newsletter />

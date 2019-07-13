@@ -5,6 +5,14 @@
 
     color: inherit;
 }
+.aNav{
+    text-decoration: none;
+    text-emphasis: none;
+
+    font-style: inherit;
+    font-family: inherit;
+    color: inherit;
+}
 
 .logo {
     align-self: center;

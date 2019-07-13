@@ -1,6 +1,20 @@
 
-.div{
+/* .div{
 	border: 2px solid #373737
+} */
+.view {
+    margin: 0;
+    height: 100vh;
+	cursor: url('../images/Cursor.svg'), auto;
+	color: rgb(27,27,27);
+}
+.cursor{
+	width: 30px;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 50%;
+	position: absolute;
+
 }
 /* Font, Text, and rules regarding each  
 --------------------------------------------------------------------------*/
@@ -18,6 +32,25 @@
     text-shadow: -1px 0 '#707070', 0 1px '#707070', 1px 0 '#707070', 0 -1px '#707070';
     font-family: montserrat;
     font-size: 20px;
+}
+.inlineWrapper{
+	display: inline-flexbox;
+}
+.inlineItem{
+	float: left;
+}
+.social{
+	width: 30%;
+	height: 100%;
+}
+.instagram{
+	background-image: url('../images/facebook.svg');
+}
+.facebook{
+	background-image: url('../images/facebook.svg');
+}
+.linkedin{
+
 }
 
 

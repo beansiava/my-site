@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {logo} from '../logo.svg';
 import {Link} from 'react-router-dom';
 import ExternalNav from '../components/landing/ExternalNav';
+import Social from '../components/social';
 import '../css/landing.css'
 
 class Navigation extends Component {
@@ -56,7 +57,7 @@ class Navigation extends Component {
                         {/* <Link to="/" >Home</Link>
                         <Link to="/clock" >Clock (delete later)</Link>
                         <Link to="/thoughts">Thoughts</Link> */}
-                        <ExternalNav />
+                        <Social />
                         </div>
                 </div>
           </div>
