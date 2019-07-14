@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea979c13.chunk.css",
-    "main.js": "/static/js/main.e1143f7c.chunk.js",
-    "main.js.map": "/static/js/main.e1143f7c.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.198d45d6.chunk.js": "/static/js/2.198d45d6.chunk.js",
-    "static/js/2.198d45d6.chunk.js.map": "/static/js/2.198d45d6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.52ed82908117c57e7a89384f83d681eb.js": "/precache-manifest.52ed82908117c57e7a89384f83d681eb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ea979c13.chunk.css.map": "/static/css/main.ea979c13.chunk.css.map",
-    "static/media/cursor.scss": "/static/media/Cursor.be473f21.svg",
-    "static/media/global.css": "/static/media/facebook.2e17da73.svg",
-    "static/media/go.jpg": "/static/media/go.7d419a0f.jpg",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-    "static/media/logo.png": "/static/media/logo.64ddc0f5.png"
+    "main.css": "/my-site/static/css/main.68abe7c3.chunk.css",
+    "main.js": "/my-site/static/js/main.42f1e8cf.chunk.js",
+    "main.js.map": "/my-site/static/js/main.42f1e8cf.chunk.js.map",
+    "runtime~main.js": "/my-site/static/js/runtime~main.0ae2f0e4.js",
+    "runtime~main.js.map": "/my-site/static/js/runtime~main.0ae2f0e4.js.map",
+    "static/js/2.50b5017a.chunk.js": "/my-site/static/js/2.50b5017a.chunk.js",
+    "static/js/2.50b5017a.chunk.js.map": "/my-site/static/js/2.50b5017a.chunk.js.map",
+    "index.html": "/my-site/index.html",
+    "precache-manifest.a01644ad4fcd55d518fe0d8e248c84d0.js": "/my-site/precache-manifest.a01644ad4fcd55d518fe0d8e248c84d0.js",
+    "service-worker.js": "/my-site/service-worker.js",
+    "static/css/main.68abe7c3.chunk.css.map": "/my-site/static/css/main.68abe7c3.chunk.css.map",
+    "static/media/cursor.scss": "/my-site/static/media/Cursor.be473f21.svg",
+    "static/media/global.css": "/my-site/static/media/facebook.2e17da73.svg",
+    "static/media/go.jpg": "/my-site/static/media/go.7d419a0f.jpg",
+    "static/media/logo.svg": "/my-site/static/media/logo.5d5d9eef.svg",
+    "static/media/logo.png": "/my-site/static/media/logo.64ddc0f5.png"
   }
 }
