@@ -3,7 +3,9 @@ import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 import '../css/landing.css';
 
-import firebase from 'firebase';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
