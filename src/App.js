@@ -1,8 +1,15 @@
 import React, {Component} from 'react';
+// images
 import logo from './logo.svg';
+
+// styles
 import './App.css';
+
+// components
 import Landing from './views/Landing';
 import Footer from './components/Footer';
+
+
 // Browser Router 
 import {
   BrowserRouter as Router,
