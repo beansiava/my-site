@@ -8,18 +8,9 @@ import Newsletter from './Newsletter';
 
 const Footer = (props) => {
     return ( 
-        <Grid>
-            <Row>
-                <Column></Column>
-                <Column></Column>
-                <Column></Column>
-            </Row>
-            <Row>
-                <Column></Column>
-                <Column><Newsletter/></Column>
-                <Column></Column>
-            </Row>
-        </Grid>  
+        <div>
+            
+        </div>
      );
 }
  
