@@ -1,18 +1,10 @@
 import React from 'react';
-import styled from '@emotion/styled';
+
 
 import Newsletter from './Newsletter';
 
 // create a 2x3 CSS Grid (NavHeader/Nav, CallToAction/SignUpForm, SMTOAction/Social Media)
-const Grid = styled.div({
 
-})
-const Row = styled.div({
-
-})
-const Column = styled.div({
-
-})
 
 const Footer = (props) => {
     return ( 
