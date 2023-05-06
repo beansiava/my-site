@@ -16,7 +16,7 @@
     "react-mailchimp-subscribe": "^2.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "storybook": "^1.0.0",
+    "storybook": "^7.0.9",
     "vertical-timeline-component-for-react": "^1.0.6"
   },
   "scripts": {
