@@ -15,7 +15,7 @@
     "react-dom": "^16.8.6",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "storybook": "^1.0.0",
     "vertical-timeline-component-for-react": "^1.0.6"
   },
@@ -47,7 +47,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.1",
     "@storybook/addon-links": "^5.1.1",
-    "@storybook/react": "^5.1.1",
+    "@storybook/react": "^7.0.9",
     "gh-pages": "^2.0.1"
   }
 }
